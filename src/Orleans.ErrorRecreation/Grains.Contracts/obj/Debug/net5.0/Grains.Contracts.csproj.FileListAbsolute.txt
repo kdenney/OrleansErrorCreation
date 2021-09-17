@@ -1,0 +1,12 @@
+C:\git\OrleansErrorCreation\src\Orleans.ErrorRecreation\Grains.Contracts\bin\Debug\net5.0\Grains.Contracts.deps.json
+C:\git\OrleansErrorCreation\src\Orleans.ErrorRecreation\Grains.Contracts\bin\Debug\net5.0\Grains.Contracts.dll
+C:\git\OrleansErrorCreation\src\Orleans.ErrorRecreation\Grains.Contracts\bin\Debug\net5.0\ref\Grains.Contracts.dll
+C:\git\OrleansErrorCreation\src\Orleans.ErrorRecreation\Grains.Contracts\bin\Debug\net5.0\Grains.Contracts.pdb
+C:\git\OrleansErrorCreation\src\Orleans.ErrorRecreation\Grains.Contracts\obj\Debug\net5.0\Grains.Contracts.csproj.AssemblyReference.cache
+C:\git\OrleansErrorCreation\src\Orleans.ErrorRecreation\Grains.Contracts\obj\Debug\net5.0\Grains.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\git\OrleansErrorCreation\src\Orleans.ErrorRecreation\Grains.Contracts\obj\Debug\net5.0\Grains.Contracts.AssemblyInfoInputs.cache
+C:\git\OrleansErrorCreation\src\Orleans.ErrorRecreation\Grains.Contracts\obj\Debug\net5.0\Grains.Contracts.AssemblyInfo.cs
+C:\git\OrleansErrorCreation\src\Orleans.ErrorRecreation\Grains.Contracts\obj\Debug\net5.0\Grains.Contracts.csproj.CoreCompileInputs.cache
+C:\git\OrleansErrorCreation\src\Orleans.ErrorRecreation\Grains.Contracts\obj\Debug\net5.0\Grains.Contracts.dll
+C:\git\OrleansErrorCreation\src\Orleans.ErrorRecreation\Grains.Contracts\obj\Debug\net5.0\ref\Grains.Contracts.dll
+C:\git\OrleansErrorCreation\src\Orleans.ErrorRecreation\Grains.Contracts\obj\Debug\net5.0\Grains.Contracts.pdb
