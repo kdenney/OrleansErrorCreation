@@ -1,14 +1,12 @@
 ﻿using System;
-using System.IO;
 using System.Net;
 using System.Threading.Tasks;
 using Grains.Contracts;
 using Greet.Domain.Grains;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Orleans;
 using Orleans.Configuration;
 using Orleans.Hosting;
-using Orleans;
 
 namespace Greet.Silo
 {
@@ -19,7 +17,7 @@ namespace Greet.Silo
             return MainAsync().GetAwaiter().GetResult();
         }
         
-                private static async Task<int> MainAsync()
+        private static async Task<int> MainAsync()
         {
             try
             {
@@ -40,18 +38,11 @@ namespace Greet.Silo
 
         private static async Task<ISiloHost> StartSilo()
         {
-            // var configurationBuilder = new ConfigurationBuilder()
-            //     .SetBasePath(Directory.GetCurrentDirectory())
-            //     .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
-            //
-            // var configuration = configurationBuilder.Build();
-
             // define the cluster configuration
             var builder = new SiloHostBuilder()
                     .UseLocalhostClustering()
                     .ConfigureAppConfiguration((context, configBuilder) =>
                     {
-                        // configBuilder.AddJsonFile("appsettings.json", optional: false, reloadOnChange: false);
                     })
                     .ConfigureServices((context, services) =>
                     {
