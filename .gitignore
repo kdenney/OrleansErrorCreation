@@ -1,0 +1,14 @@
+*.dll
+*.pdb
+*.cache
+**/.idea/
+**/obj/
+**/bin/
+*.log
+**/Logs/**
+*.suo
+*.user
+# MacOS ignores
+.DS_Store
+*.tgz
+.vscode/settings.json
