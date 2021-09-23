@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Grains.Contracts;
 using Greet.Domain;
+using Greet.Domain.Grains;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -21,6 +23,7 @@ namespace Grpc.Api
 
             services.AddTransient<IGreeterDataClient, GreeterDataClient>();
             services.AddSingleton<IGreeterOrleansFactory, GreeterOrleansFactory>();
+            services.AddTransient<IDoGreetUserGrain, DoGreetUserGrain>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

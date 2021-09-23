@@ -21,9 +21,8 @@ namespace Grpc.Api
 
         private static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
-                .ConfigureWebHost(builder =>
+                .ConfigureWebHostDefaults(builder =>
                 {
-                    builder.UseKestrel();
                     builder.ConfigureKestrel(options =>
                         {
                             options.ListenAnyIP(7001,
@@ -31,12 +30,6 @@ namespace Grpc.Api
                         })
                         .UseStartup<Startup>();
                 })
-                // .UseOrleans(builder =>
-                // {
-                //     builder
-                //         .UseLocalhostClustering()
-                //         ;
-                // })
             ;
     }
 }

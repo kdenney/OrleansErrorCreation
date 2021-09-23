@@ -46,7 +46,6 @@ namespace Greet.Silo
                     })
                     .ConfigureServices((context, services) =>
                     {
-                        services.AddTransient<IDoGreetUserGrain, DoGreetUserGrain>();
                     })
                     .AddSimpleMessageStreamProvider("SMSProvider")
                     .AddMemoryGrainStorage("PubSubStore")
